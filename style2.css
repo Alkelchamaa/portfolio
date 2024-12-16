@@ -1,0 +1,26 @@
+.video,.video2,.video3{
+    margin-top: 25px;
+    border:5px solid black;
+}
+ h1{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+#preloader{
+    background: white url(preloader.gif) no-repeat center center;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+body{
+    background: linear-gradient(-90deg, #88fb7c 50%, white 0%);
+
+}
+nav,#margin2,#margin1{
+    font-size: 15px;
+    color: blue;
+}

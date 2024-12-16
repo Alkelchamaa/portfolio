@@ -1,0 +1,107 @@
+#preloader{
+    background: white url(preloader.gif) no-repeat center center;
+    background-size: 80%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+body{
+    background-color: white;
+}
+div{
+    text-align: center;
+}
+p{
+    margin-left: 120px;
+    margin-top: 30px;
+    width: 88%;
+}
+nav{
+    margin: 30px;
+    margin-left: 1050px;
+}
+#margin2{
+    margin-left:0px;
+}
+#margin1{
+    margin-left: 0px;
+}
+img{
+    border: 5px solid #333232;
+    margin-top: 15px;
+    
+}
+.coder1{
+    width: 300px;
+    height: 200px;
+
+}
+.competence{
+    width: 257px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    text-align: center;
+    color:#000;
+}
+h3{
+margin-left: 120px;
+}
+ul{
+    list-style: none;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    top: 0;left: 0;
+    background: #201e1e;
+    box-shadow: 5px 0px 10px black;
+    justify-content: space-around;
+}
+ul li{
+    padding: 5px;
+    margin-top: 120px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+ul li a:hover{
+    background:white;
+    color: blue;
+}
+.content{
+    display: flex;
+    width: 500%;
+
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+#introduction{
+    background: linear-gradient(-45deg, #4a90e2 30%,white 0%);
+}
+#journey{
+    background: linear-gradient(-45deg, rgb(245, 245, 87) 30%, white 0%);
+}
+#Myskills{
+    background: linear-gradient(-45deg, #eb9041 30%, white 0%);
+}
+
+nav,#margin2,#margin1{
+    font-size: 15px;
+    color: blue;
+}

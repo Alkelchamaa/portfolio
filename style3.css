@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(-24.7deg, #73b2d8 50%, white 0%);
+}
+div{
+    text-align: center;
+}
+.projects{
+    width:300px;
+    border: 5px solid black;
+}
+nav,#margin2,#margin1{
+    font-size: 15px;
+    color: blue;
+}
+h1{
+    text-align: center;
+}
